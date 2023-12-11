@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="5" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-11T14:42:15 EST" name="Suite" finished-at="2023-12-11T14:42:52 EST" duration-ms="37529">
+    <groups>
+    </groups>
+    <test started-at="2023-12-11T14:42:15 EST" name="Test" finished-at="2023-12-11T14:42:52 EST" duration-ms="37529">
+      <class name="com.qa.tutorialsninja.TestCases.CheckOutTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tutorialsninja.TestCases.CheckOutTest@3c407114]" started-at="2023-12-11T14:42:44 EST" name="setup" finished-at="2023-12-11T14:42:48 EST" duration-ms="4547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyCheckout()[pri:1, instance:com.qa.tutorialsninja.TestCases.CheckOutTest@3c407114]" started-at="2023-12-11T14:42:48 EST" name="verifyCheckout" finished-at="2023-12-11T14:42:52 EST" duration-ms="4036" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertFalse(Assert.java:79)
+at org.testng.Assert.assertFalse(Assert.java:89)
+at com.qa.tutorialsninja.TestCases.CheckOutTest.verifyCheckout(CheckOutTest.java:46)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCheckout -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.tutorialsninja.TestCases.CheckOutTest@3c407114]" started-at="2023-12-11T14:42:52 EST" name="teardown" finished-at="2023-12-11T14:42:52 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.qa.tutorialsninja.TestCases.CheckOutTest -->
+      <class name="com.qa.tutorialsninja.TestCases.SearchProductTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tutorialsninja.TestCases.SearchProductTest@647e447]" started-at="2023-12-11T14:42:33 EST" name="setup" finished-at="2023-12-11T14:42:37 EST" duration-ms="3897" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifySearchWithValidProductsAndVerifyProductDetails()[pri:1, instance:com.qa.tutorialsninja.TestCases.SearchProductTest@647e447]" started-at="2023-12-11T14:42:37 EST" name="verifySearchWithValidProductsAndVerifyProductDetails" finished-at="2023-12-11T14:42:39 EST" duration-ms="1550" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchWithValidProductsAndVerifyProductDetails -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.tutorialsninja.TestCases.SearchProductTest@647e447]" started-at="2023-12-11T14:42:39 EST" name="teardown" finished-at="2023-12-11T14:42:39 EST" duration-ms="228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.qa.tutorialsninja.TestCases.SearchProductTest -->
+      <class name="com.qa.tutorialsninja.TestCases.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tutorialsninja.TestCases.LoginTest@28eaa59a]" started-at="2023-12-11T14:42:21 EST" name="setup" finished-at="2023-12-11T14:42:25 EST" duration-ms="4406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithValidCredentials()[pri:1, instance:com.qa.tutorialsninja.TestCases.LoginTest@28eaa59a]" started-at="2023-12-11T14:42:25 EST" name="verifyLoginWithValidCredentials" finished-at="2023-12-11T14:42:26 EST" duration-ms="1053" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidCredentials -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.tutorialsninja.TestCases.LoginTest@28eaa59a]" started-at="2023-12-11T14:42:26 EST" name="teardown" finished-at="2023-12-11T14:42:27 EST" duration-ms="256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.qa.tutorialsninja.TestCases.LoginTest -->
+      <class name="com.qa.tutorialsninja.TestCases.HomePageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tutorialsninja.TestCases.HomePageTest@2667f029]" started-at="2023-12-11T14:42:15 EST" name="setup" finished-at="2023-12-11T14:42:20 EST" duration-ms="4997" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyHomePage()[pri:1, instance:com.qa.tutorialsninja.TestCases.HomePageTest@2667f029]" started-at="2023-12-11T14:42:20 EST" name="verifyHomePage" finished-at="2023-12-11T14:42:21 EST" duration-ms="532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.tutorialsninja.TestCases.HomePageTest@2667f029]" started-at="2023-12-11T14:42:21 EST" name="teardown" finished-at="2023-12-11T14:42:21 EST" duration-ms="365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.qa.tutorialsninja.TestCases.HomePageTest -->
+      <class name="com.qa.tutorialsninja.TestCases.ShoppingCartTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tutorialsninja.TestCases.ShoppingCartTest@41fbdac4]" started-at="2023-12-11T14:42:39 EST" name="setup" finished-at="2023-12-11T14:42:43 EST" duration-ms="3921" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyShoppingCart()[pri:1, instance:com.qa.tutorialsninja.TestCases.ShoppingCartTest@41fbdac4]" started-at="2023-12-11T14:42:43 EST" name="verifyShoppingCart" finished-at="2023-12-11T14:42:43 EST" duration-ms="602" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyShoppingCart -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.tutorialsninja.TestCases.ShoppingCartTest@41fbdac4]" started-at="2023-12-11T14:42:43 EST" name="teardown" finished-at="2023-12-11T14:42:44 EST" duration-ms="260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.qa.tutorialsninja.TestCases.ShoppingCartTest -->
+      <class name="com.qa.tutorialsninja.TestCases.RegisterTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tutorialsninja.TestCases.RegisterTest@3427b02d]" started-at="2023-12-11T14:42:27 EST" name="setup" finished-at="2023-12-11T14:42:31 EST" duration-ms="4592" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyRegisterWithValidCredentials()[pri:1, instance:com.qa.tutorialsninja.TestCases.RegisterTest@3427b02d]" started-at="2023-12-11T14:42:31 EST" name="verifyRegisterWithValidCredentials" finished-at="2023-12-11T14:42:33 EST" duration-ms="1568" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisterWithValidCredentials -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.tutorialsninja.TestCases.RegisterTest@3427b02d]" started-at="2023-12-11T14:42:33 EST" name="teardown" finished-at="2023-12-11T14:42:33 EST" duration-ms="197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.qa.tutorialsninja.TestCases.RegisterTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+  <suite started-at="2023-12-11T14:42:53 EST" name="Failed suite [Surefire suite]" finished-at="2023-12-11T14:43:05 EST" duration-ms="11663">
+    <groups>
+    </groups>
+    <test started-at="2023-12-11T14:42:53 EST" name="Surefire test(failed)" finished-at="2023-12-11T14:43:05 EST" duration-ms="11663">
+      <class name="com.qa.tutorialsninja.TestCases.CheckOutTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tutorialsninja.TestCases.CheckOutTest@5fdcaa40]" started-at="2023-12-11T14:42:53 EST" name="setup" finished-at="2023-12-11T14:42:59 EST" duration-ms="6014" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyCheckout()[pri:1, instance:com.qa.tutorialsninja.TestCases.CheckOutTest@5fdcaa40]" started-at="2023-12-11T14:42:59 EST" name="verifyCheckout" finished-at="2023-12-11T14:43:05 EST" duration-ms="5508" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertFalse(Assert.java:79)
+at org.testng.Assert.assertFalse(Assert.java:89)
+at com.qa.tutorialsninja.TestCases.CheckOutTest.verifyCheckout(CheckOutTest.java:46)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCheckout -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.tutorialsninja.TestCases.CheckOutTest@5fdcaa40]" started-at="2023-12-11T14:43:05 EST" name="teardown" finished-at="2023-12-11T14:43:05 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.qa.tutorialsninja.TestCases.CheckOutTest -->
+    </test> <!-- Surefire test(failed) -->
+  </suite> <!-- Failed suite [Surefire suite] -->
+</testng-results>
